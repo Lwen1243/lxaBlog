@@ -2,14 +2,18 @@
 
 ## 配置步骤：
 
-'git clone https://github.com/Lwen1243/lxaBlog.git'
+`git clone https://github.com/Lwen1243/lxaBlog.git`
 
 使用IDEA打开文件夹
 
-在'src/main/resources/application.yaml'中修改mysql账号密码
+在`src/main/resources/application.yaml`中修改mysql账号密码
 
 运行
 
 初始管理员账号密码：
-admin
-123456
+
+`admin`
+
+`123456`
+
+有事联系QQ：3616471596
