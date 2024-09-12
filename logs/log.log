@@ -1,0 +1,733 @@
+2024-09-12 00:09:29.291  INFO 91899 --- [XNIO-1 task-20] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:35.071  INFO 91899 --- [XNIO-1 task-21] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:39.700  INFO 91899 --- [XNIO-1 task-22] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:41.712  INFO 91899 --- [XNIO-1 task-23] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:41.719  INFO 91899 --- [XNIO-1 task-23] com.example.forum.config.shiro.MyRealm   : 账号已锁定! 登录名:admin, 密码:[a, d, m, i, n, 1, 2, 3]
+2024-09-12 00:09:41.720  INFO 91899 --- [XNIO-1 task-23] c.e.f.controller.home.LoginController    : LockedAccountException -- > 账号被锁定
+2024-09-12 00:09:43.696  INFO 91899 --- [XNIO-1 task-24] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:43.703  INFO 91899 --- [XNIO-1 task-24] com.example.forum.config.shiro.MyRealm   : 账号已锁定! 登录名:admin, 密码:[a, d, m, i, n, 1, 2, 3]
+2024-09-12 00:09:43.703  INFO 91899 --- [XNIO-1 task-24] c.e.f.controller.home.LoginController    : LockedAccountException -- > 账号被锁定
+2024-09-12 00:09:45.345  INFO 91899 --- [XNIO-1 task-25] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:09:45.359  INFO 91899 --- [XNIO-1 task-25] com.example.forum.config.shiro.MyRealm   : 账号已锁定! 登录名:admin, 密码:[a, d, m, i, n, 1, 2, 3]
+2024-09-12 00:09:45.359  INFO 91899 --- [XNIO-1 task-25] c.e.f.controller.home.LoginController    : LockedAccountException -- > 账号被锁定
+2024-09-12 00:09:54.986  INFO 91899 --- [XNIO-1 task-26] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:11:45.191  INFO 91899 --- [XNIO-1 task-3] c.e.f.controller.home.LoginController    : 用户[admin1]退出登录
+2024-09-12 00:11:52.838  INFO 91899 --- [XNIO-1 task-9] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:11:52.853  INFO 91899 --- [XNIO-1 task-9] com.example.forum.config.shiro.MyRealm   : 账号已锁定! 登录名:admin, 密码:[6, 5, 4, 3, 2, 1]
+2024-09-12 00:11:52.853  INFO 91899 --- [XNIO-1 task-9] c.e.f.controller.home.LoginController    : LockedAccountException -- > 账号被锁定
+2024-09-12 00:27:19.043  INFO 91899 --- [XNIO-1 task-15] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:27:25.129  INFO 91899 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 00:27:25.130  INFO 91899 --- [Thread-14] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 00:27:34.678  INFO 93772 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 93772 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 00:27:34.680  INFO 93772 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 00:27:34.723  INFO 93772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 00:27:34.724  INFO 93772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 00:27:35.446  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a78a2856] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.477  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a1401343] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.608  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.621  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.627  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.640  INFO 93772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 00:27:35.811  WARN 93772 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 00:27:35.825  INFO 93772 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 00:27:35.825  INFO 93772 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1101 ms
+2024-09-12 00:27:35.938  INFO 93772 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 00:27:36.033  INFO 93772 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 00:27:36.996  WARN 93772 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 00:27:37.072  INFO 93772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 00:27:37.118  INFO 93772 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 00:27:37.124  INFO 93772 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 00:27:37.158  INFO 93772 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 00:27:37.160  INFO 93772 --- [restartedMain] com.example.forum.Application            : Started Application in 2.781 seconds (JVM running for 3.226)
+2024-09-12 00:27:37.163  INFO 93772 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 00:27:50.898  INFO 93772 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 00:27:50.898  INFO 93772 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 00:27:50.904  INFO 93772 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-09-12 00:27:57.388  INFO 93772 --- [XNIO-1 task-26] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:28:59.829  INFO 93772 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:29:13.883  INFO 93772 --- [XNIO-1 task-21] c.e.f.controller.home.LoginController    : 用户[lisi]退出登录
+2024-09-12 00:30:45.654  INFO 93772 --- [XNIO-1 task-29] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 00:38:05.455  INFO 93772 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 00:38:05.457  INFO 93772 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:05:26.152  INFO 102317 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 102317 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:05:26.154  INFO 102317 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:05:26.194  INFO 102317 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:05:26.194  INFO 102317 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:05:26.991  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88ed7073] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.024  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$82a35b60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.177  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.196  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.205  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.222  INFO 102317 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:05:27.386  WARN 102317 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:05:27.400  INFO 102317 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:05:27.400  INFO 102317 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1205 ms
+2024-09-12 09:05:27.523  INFO 102317 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:05:27.608  INFO 102317 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:05:28.598  WARN 102317 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:05:28.680  INFO 102317 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:05:28.731  INFO 102317 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:05:28.736  INFO 102317 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:05:28.767  INFO 102317 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:05:28.770  INFO 102317 --- [restartedMain] com.example.forum.Application            : Started Application in 2.998 seconds (JVM running for 3.461)
+2024-09-12 09:05:28.772  INFO 102317 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:05:30.457  INFO 102317 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:05:30.457  INFO 102317 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:05:30.472  INFO 102317 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2024-09-12 09:09:12.789  INFO 102317 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:09:12.790  INFO 102317 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:09:17.303  INFO 102761 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 102761 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:09:17.307  INFO 102761 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:09:17.408  INFO 102761 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:09:17.408  INFO 102761 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:09:19.044  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d79a76de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.104  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$d15061cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.372  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.398  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.410  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.433  INFO 102761 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:09:19.794  WARN 102761 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:09:19.838  INFO 102761 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:09:19.839  INFO 102761 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2430 ms
+2024-09-12 09:09:20.114  INFO 102761 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:09:20.334  INFO 102761 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:09:22.421  WARN 102761 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:09:22.548  INFO 102761 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:09:22.669  INFO 102761 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:09:22.687  INFO 102761 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:09:22.757  INFO 102761 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:09:22.762  INFO 102761 --- [restartedMain] com.example.forum.Application            : Started Application in 5.997 seconds (JVM running for 6.61)
+2024-09-12 09:09:22.767  INFO 102761 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:09:26.426  INFO 102761 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:09:26.426  INFO 102761 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:09:26.454  INFO 102761 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2024-09-12 09:09:30.839  INFO 102761 --- [XNIO-1 task-16] c.e.f.controller.home.LoginController    : 用户[admin]退出登录
+2024-09-12 09:09:32.788  INFO 102761 --- [XNIO-1 task-26] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:09:32.828  INFO 102761 --- [XNIO-1 task-26] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:09:32.830  INFO 102761 --- [XNIO-1 task-26] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:10:59.502  INFO 102761 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:10:59.517  INFO 102761 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:10:59.518  INFO 102761 --- [XNIO-1 task-27] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:11:02.468  INFO 102761 --- [XNIO-1 task-10] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:11:02.473  INFO 102761 --- [XNIO-1 task-10] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:11:02.473  INFO 102761 --- [XNIO-1 task-10] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:11:07.463  INFO 102761 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:11:07.464  INFO 102761 --- [Thread-19] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:11:16.678  INFO 103162 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 103162 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:11:16.681  INFO 103162 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:11:16.755  INFO 103162 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:11:16.755  INFO 103162 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:11:18.893  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98c805f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:18.952  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$927df0de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:19.280  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:19.305  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:19.320  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:19.355  INFO 103162 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:11:19.743  WARN 103162 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:11:19.776  INFO 103162 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:11:19.777  INFO 103162 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3022 ms
+2024-09-12 09:11:20.054  INFO 103162 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:11:20.263  INFO 103162 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:11:22.441  WARN 103162 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:11:22.621  INFO 103162 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:11:22.746  INFO 103162 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:11:22.758  INFO 103162 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:11:22.865  INFO 103162 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:11:22.869  INFO 103162 --- [restartedMain] com.example.forum.Application            : Started Application in 6.627 seconds (JVM running for 7.294)
+2024-09-12 09:11:22.877  INFO 103162 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:11:29.390  INFO 103162 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:11:29.390  INFO 103162 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:11:29.428  INFO 103162 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2024-09-12 09:11:33.585  INFO 103162 --- [XNIO-1 task-17] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:11:33.622  INFO 103162 --- [XNIO-1 task-17] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:11:33.624  INFO 103162 --- [XNIO-1 task-17] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:12:14.721  INFO 103162 --- [XNIO-1 task-34] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:12:14.726  INFO 103162 --- [XNIO-1 task-34] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:12:14.727  INFO 103162 --- [XNIO-1 task-34] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:12:18.509  INFO 103162 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:12:18.510  INFO 103162 --- [Thread-20] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:12:22.432  INFO 103423 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 103423 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:12:22.439  INFO 103423 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:12:25.386  INFO 103494 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 103494 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:12:25.394  INFO 103494 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:12:25.469  INFO 103494 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:12:25.472  INFO 103494 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:12:27.363  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c12f731a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:27.438  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$bae55e07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:27.818  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:27.861  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:27.874  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:27.928  INFO 103494 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:12:28.411  WARN 103494 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:12:28.452  INFO 103494 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:12:28.453  INFO 103494 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2980 ms
+2024-09-12 09:12:28.729  INFO 103494 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:12:28.952  INFO 103494 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:12:31.851  WARN 103494 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:12:32.057  INFO 103494 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:12:32.169  INFO 103494 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:12:32.182  INFO 103494 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:12:32.301  INFO 103494 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:12:32.308  INFO 103494 --- [restartedMain] com.example.forum.Application            : Started Application in 7.484 seconds (JVM running for 8.014)
+2024-09-12 09:12:32.317  INFO 103494 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:12:44.535  INFO 103494 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:12:44.537  INFO 103494 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:12:44.577  INFO 103494 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2024-09-12 09:12:49.382  INFO 103494 --- [XNIO-1 task-17] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:12:49.465  INFO 103494 --- [XNIO-1 task-17] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:12:49.468  INFO 103494 --- [XNIO-1 task-17] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:13:46.497  INFO 103494 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:13:46.499  INFO 103494 --- [Thread-22] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:14:52.265 DEBUG 103817 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2024-09-12 09:14:52.372  INFO 103817 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 103817 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:14:52.373  INFO 103817 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:14:52.415  INFO 103817 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:14:52.415  INFO 103817 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:14:53.379  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2673b418] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.413  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$20299f05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.552  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.566  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.572  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.587  INFO 103817 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:14:53.770  WARN 103817 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:14:53.788  INFO 103817 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:14:53.788  INFO 103817 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1373 ms
+2024-09-12 09:14:53.935  INFO 103817 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:14:54.051  INFO 103817 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:14:54.960  WARN 103817 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:14:55.023  INFO 103817 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:14:55.067  INFO 103817 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:14:55.072  INFO 103817 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:14:55.103  INFO 103817 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:14:55.104  INFO 103817 --- [restartedMain] com.example.forum.Application            : Started Application in 3.087 seconds (JVM running for 3.595)
+2024-09-12 09:14:55.107  INFO 103817 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:14:59.740  INFO 103817 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:14:59.741  INFO 103817 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:14:59.760  INFO 103817 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2024-09-12 09:15:03.559  INFO 103817 --- [XNIO-1 task-25] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:15:03.609  INFO 103817 --- [XNIO-1 task-25] com.example.forum.config.shiro.MyRealm   : 用户不存在! 登录名:admin, 密码:[1, 2, 3, 4, 5, 6]
+2024-09-12 09:15:03.611  INFO 103817 --- [XNIO-1 task-25] c.e.f.controller.home.LoginController    : UnknownAccountException -- > 账号不存在：
+2024-09-12 09:15:34.017  INFO 103817 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:15:34.018  INFO 103817 --- [Thread-14] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:15:37.744  INFO 104059 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 104059 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:15:37.747  INFO 104059 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:15:37.837  INFO 104059 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:15:37.838  INFO 104059 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:15:39.634  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4a92d0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:39.711  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ee5f17fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:40.035  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:40.061  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:40.074  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:40.100  INFO 104059 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:15:40.415  WARN 104059 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:15:40.438  INFO 104059 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:15:40.439  INFO 104059 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2601 ms
+2024-09-12 09:15:40.615  INFO 104059 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:15:40.801  INFO 104059 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:15:42.927  WARN 104059 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:15:43.133  INFO 104059 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:15:43.260  INFO 104059 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:15:43.272  INFO 104059 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:15:43.365  INFO 104059 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:15:43.371  INFO 104059 --- [restartedMain] com.example.forum.Application            : Started Application in 6.208 seconds (JVM running for 6.848)
+2024-09-12 09:15:43.376  INFO 104059 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 09:15:46.921  INFO 104059 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 09:15:46.921  INFO 104059 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 09:15:46.951  INFO 104059 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2024-09-12 09:15:51.519  INFO 104059 --- [XNIO-1 task-12] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 09:28:42.238  INFO 104059 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 09:28:42.239  INFO 104059 --- [Thread-20] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 09:32:28.966  INFO 106518 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 106518 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 09:32:28.968  INFO 106518 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 09:32:29.011  INFO 106518 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 09:32:29.012  INFO 106518 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 09:32:29.731  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2bccac27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:29.763  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$25829714] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:29.901  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:29.914  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:29.921  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:29.935  INFO 106518 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 09:32:30.111  WARN 106518 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 09:32:30.125  INFO 106518 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 09:32:30.125  INFO 106518 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1113 ms
+2024-09-12 09:32:30.246  INFO 106518 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 09:32:30.328  INFO 106518 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 09:32:31.188  WARN 106518 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 09:32:31.246  INFO 106518 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 09:32:31.294  INFO 106518 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 09:32:31.299  INFO 106518 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 09:32:31.330  INFO 106518 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 09:32:31.332  INFO 106518 --- [restartedMain] com.example.forum.Application            : Started Application in 2.67 seconds (JVM running for 3.191)
+2024-09-12 09:32:31.335  INFO 106518 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 10:11:39.070  INFO 106518 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 10:11:39.070  INFO 106518 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 10:11:39.077  INFO 106518 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-09-12 10:17:41.312 ERROR 106518 --- [XNIO-1 task-10] c.e.f.exception.GlobalExceptionHandler   : 业务异常，提示前端操作不合法
+
+com.example.forum.exception.MyBusinessException: 用户名长度为4-20位!
+	at com.example.forum.service.impl.UserServiceImpl.basicUserCheck(UserServiceImpl.java:179) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:154) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:32) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$453fb693.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.example.forum.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5ecc06b2.insert(<generated>) ~[classes/:na]
+	at com.example.forum.controller.home.LoginController.getRegister(LoginController.java:177) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_421]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_421]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_421]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_421]
+
+2024-09-12 10:17:43.512 ERROR 106518 --- [XNIO-1 task-13] c.e.f.exception.GlobalExceptionHandler   : 业务异常，提示前端操作不合法
+
+com.example.forum.exception.MyBusinessException: 用户名长度为4-20位!
+	at com.example.forum.service.impl.UserServiceImpl.basicUserCheck(UserServiceImpl.java:179) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:154) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:32) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$453fb693.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.example.forum.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5ecc06b2.insert(<generated>) ~[classes/:na]
+	at com.example.forum.controller.home.LoginController.getRegister(LoginController.java:177) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_421]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_421]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_421]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_421]
+
+2024-09-12 10:18:04.482  INFO 106518 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:22:11.514 ERROR 106518 --- [XNIO-1 task-6] c.e.f.exception.GlobalExceptionHandler   : 业务异常，提示前端操作不合法
+
+com.example.forum.exception.MyBusinessException: 用户名长度为4-20位!
+	at com.example.forum.service.impl.UserServiceImpl.basicUserCheck(UserServiceImpl.java:179) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:154) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:32) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$453fb693.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.example.forum.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5ecc06b2.insert(<generated>) ~[classes/:na]
+	at com.example.forum.controller.home.LoginController.getRegister(LoginController.java:177) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_421]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_421]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_421]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_421]
+
+2024-09-12 10:22:33.149  INFO 106518 --- [XNIO-1 task-17] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:23:36.154  INFO 106518 --- [XNIO-1 task-32] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:25:37.500  INFO 106518 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 10:25:37.501  INFO 106518 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 10:25:40.535  INFO 110720 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 110720 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 10:25:40.537  INFO 110720 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 10:25:40.586  INFO 110720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 10:25:40.586  INFO 110720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 10:25:41.367  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ee60ed8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.400  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$589bf9c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.543  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.555  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.562  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.576  INFO 110720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 10:25:41.753  WARN 110720 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 10:25:41.766  INFO 110720 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 10:25:41.767  INFO 110720 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1181 ms
+2024-09-12 10:25:41.886  INFO 110720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 10:25:41.972  INFO 110720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 10:25:42.831  WARN 110720 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 10:25:42.900  INFO 110720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 10:25:42.950  INFO 110720 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 10:25:42.955  INFO 110720 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 10:25:42.986  INFO 110720 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 10:25:42.988  INFO 110720 --- [restartedMain] com.example.forum.Application            : Started Application in 2.813 seconds (JVM running for 3.288)
+2024-09-12 10:25:42.991  INFO 110720 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 10:25:44.879  INFO 110720 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 10:25:44.879  INFO 110720 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 10:25:44.885  INFO 110720 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-09-12 10:26:22.698 ERROR 110720 --- [XNIO-1 task-2] c.e.f.exception.GlobalExceptionHandler   : 业务异常，提示前端操作不合法
+
+com.example.forum.exception.MyBusinessException: 电子邮箱已经存在
+	at com.example.forum.service.impl.UserServiceImpl.checkUserNameAndEmail(UserServiceImpl.java:204) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:156) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl.insert(UserServiceImpl.java:32) ~[classes/:na]
+	at com.example.forum.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$453fb693.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.example.forum.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$2654d753.insert(<generated>) ~[classes/:na]
+	at com.example.forum.controller.home.LoginController.getRegister(LoginController.java:177) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_421]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_421]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_421]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_421]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_421]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_421]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_421]
+
+2024-09-12 10:26:41.045  INFO 110720 --- [XNIO-1 task-24] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:27:51.793 ERROR 110720 --- [XNIO-1 task-8] c.e.f.exception.GlobalExceptionHandler   : 缺少请求参数
+
+org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'postId' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:127) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) [javax.servlet-api-4.0.1.jar:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.0.jar:1.4.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.0.jar:1.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.23.Final.jar:2.0.23.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_421]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_421]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_421]
+
+2024-09-12 10:54:36.960  INFO 110720 --- [XNIO-1 task-35] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:54:51.933  INFO 110720 --- [XNIO-1 task-4] c.e.f.controller.home.LoginController    : 用户[lxxx]退出登录
+2024-09-12 10:54:53.778  INFO 110720 --- [XNIO-1 task-12] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 10:54:56.768  INFO 110720 --- [XNIO-1 task-16] c.e.f.controller.home.LoginController    : 用户[lxxx]退出登录
+2024-09-12 10:55:01.885  INFO 110720 --- [XNIO-1 task-1] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 22:08:56.074  INFO 110720 --- [XNIO-1 task-1] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 22:09:25.549  INFO 110720 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 23:16:14.987  INFO 110720 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 23:16:14.988  INFO 110720 --- [Thread-12] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-12 23:21:21.451  INFO 115257 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 115257 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-12 23:21:21.454  INFO 115257 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-12 23:21:21.495  INFO 115257 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12 23:21:21.495  INFO 115257 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12 23:21:22.285  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3188693c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.317  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2b3e5429] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.451  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.464  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.470  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.483  INFO 115257 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-12 23:21:22.667  WARN 115257 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-12 23:21:22.681  INFO 115257 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-12 23:21:22.682  INFO 115257 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1187 ms
+2024-09-12 23:21:22.792  INFO 115257 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-12 23:21:22.878  INFO 115257 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-12 23:21:23.805  WARN 115257 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-12 23:21:23.886  INFO 115257 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12 23:21:23.952  INFO 115257 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-12 23:21:23.958  INFO 115257 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-12 23:21:24.007  INFO 115257 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-12 23:21:24.010  INFO 115257 --- [restartedMain] com.example.forum.Application            : Started Application in 2.937 seconds (JVM running for 3.415)
+2024-09-12 23:21:24.013  INFO 115257 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-12 23:21:33.714  INFO 115257 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12 23:21:33.715  INFO 115257 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12 23:21:33.723  INFO 115257 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-09-12 23:21:40.393  INFO 115257 --- [XNIO-1 task-26] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-12 23:23:52.374  INFO 115257 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-12 23:23:52.375  INFO 115257 --- [Thread-12] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
