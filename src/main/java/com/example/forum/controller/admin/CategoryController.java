@@ -68,9 +68,10 @@ public class CategoryController extends BaseController {
     public JsonResult checkDelete(@RequestParam("id") Long cateId) {
         //1.判断这个分类有文章
         Integer count = categoryService.countPostByCateId(cateId);
-        if (count != 0) {
+        /*if (count != 0) {
             return JsonResult.error("该分类已经有了文章，无法删除");
         }
+        */
         categoryService.delete(cateId);
         return JsonResult.success("删除成功");
     }
