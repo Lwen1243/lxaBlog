@@ -76,6 +76,6 @@ mail:
   smtp:
     host: smtp.qq.com
     username: 1198807618@qq.com
-    password: Lxx1314520
+    password: 123456
   from:
     name: 数字赋能-3D打印
