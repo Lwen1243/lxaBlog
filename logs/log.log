@@ -1,230 +1,28 @@
-2024-09-13 23:22:11.841  INFO 123077 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 123077 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:22:11.847  INFO 123077 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:22:11.906  INFO 123077 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:22:11.907  INFO 123077 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:22:12.727  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d436b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:12.758  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ff8a219e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:12.890  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:12.903  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:12.909  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:12.922  INFO 123077 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:22:13.091  WARN 123077 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:22:13.105  INFO 123077 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:22:13.105  INFO 123077 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1198 ms
-2024-09-13 23:22:13.217  INFO 123077 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:22:13.306  INFO 123077 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:22:14.284  WARN 123077 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:22:14.351  INFO 123077 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:22:14.409  INFO 123077 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:22:14.414  INFO 123077 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:22:14.446  INFO 123077 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:22:14.448  INFO 123077 --- [restartedMain] com.example.forum.Application            : Started Application in 2.974 seconds (JVM running for 3.45)
-2024-09-13 23:22:14.451  INFO 123077 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:23:57.952  INFO 123077 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:23:57.952  INFO 123077 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:23:57.958  INFO 123077 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2024-09-13 23:25:29.267  INFO 123077 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:25:29.269  INFO 123077 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:25:30.970  INFO 123752 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 123752 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:25:30.972  INFO 123752 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:25:31.017  INFO 123752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:25:31.017  INFO 123752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:25:31.774  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e34bff7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:31.807  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$97eaaae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:31.939  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:31.951  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:31.958  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:31.970  INFO 123752 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:25:32.146  WARN 123752 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:25:32.159  INFO 123752 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:25:32.160  INFO 123752 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1143 ms
-2024-09-13 23:25:32.274  INFO 123752 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:25:32.366  INFO 123752 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:25:33.239  WARN 123752 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:25:33.309  INFO 123752 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:25:33.369  INFO 123752 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:25:33.375  INFO 123752 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:25:33.408  INFO 123752 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:25:33.410  INFO 123752 --- [restartedMain] com.example.forum.Application            : Started Application in 2.752 seconds (JVM running for 3.217)
-2024-09-13 23:25:33.412  INFO 123752 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:25:38.020  INFO 123752 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:25:38.021  INFO 123752 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:25:38.029  INFO 123752 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2024-09-13 23:29:12.822  INFO 123752 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:29:12.824  INFO 123752 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:29:14.569  INFO 124276 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 124276 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:29:14.572  INFO 124276 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:29:14.613  INFO 124276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:29:14.613  INFO 124276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:29:15.379  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b103a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.410  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a166ee94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.546  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.559  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.565  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.578  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:29:15.758  WARN 124276 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:29:15.774  INFO 124276 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:29:15.774  INFO 124276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1161 ms
-2024-09-13 23:29:15.894  INFO 124276 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:29:15.997  INFO 124276 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:29:16.883  WARN 124276 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:29:16.953  INFO 124276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:29:17.006  INFO 124276 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:29:17.011  INFO 124276 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:29:17.043  INFO 124276 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:29:17.045  INFO 124276 --- [restartedMain] com.example.forum.Application            : Started Application in 2.804 seconds (JVM running for 3.257)
-2024-09-13 23:29:17.048  INFO 124276 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:29:23.386  INFO 124276 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:29:23.386  INFO 124276 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:29:23.391  INFO 124276 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2024-09-13 23:30:31.694  INFO 124276 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
-2024-09-13 23:32:02.740  INFO 124276 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:32:02.742  INFO 124276 --- [Thread-11] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:32:02.903  INFO 124276 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 124276 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:32:02.903  INFO 124276 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:32:03.121  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b103a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.125  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a166ee94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.128  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.135  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.138  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.143  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:03.189  WARN 124276 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:32:03.190  INFO 124276 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:32:03.190  INFO 124276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 285 ms
-2024-09-13 23:32:03.226  INFO 124276 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:32:03.261  INFO 124276 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
-2024-09-13 23:32:03.705  WARN 124276 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:32:03.739  INFO 124276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:32:03.776  INFO 124276 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:32:03.777  INFO 124276 --- [restartedMain] com.example.forum.Application            : Started Application in 0.896 seconds (JVM running for 169.988)
-2024-09-13 23:32:03.779  INFO 124276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-09-13 23:32:03.780  INFO 124276 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:32:10.285  INFO 124276 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
-2024-09-13 23:32:10.493  INFO 124276 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 124276 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:32:10.493  INFO 124276 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:32:10.663  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b103a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.666  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a166ee94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.669  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.674  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.676  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.681  INFO 124276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:10.727  WARN 124276 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:32:10.728  INFO 124276 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:32:10.728  INFO 124276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 234 ms
-2024-09-13 23:32:10.764  INFO 124276 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:32:10.800  INFO 124276 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
-2024-09-13 23:32:11.147  WARN 124276 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:32:11.176  INFO 124276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:32:11.205  INFO 124276 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:32:11.206  INFO 124276 --- [restartedMain] com.example.forum.Application            : Started Application in 0.733 seconds (JVM running for 177.417)
-2024-09-13 23:32:11.208  INFO 124276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-09-13 23:32:11.208  INFO 124276 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:32:18.402  INFO 124276 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
-2024-09-13 23:32:21.703  INFO 124826 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 124826 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:32:21.705  INFO 124826 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:32:21.737  INFO 124826 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:32:21.737  INFO 124826 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:32:22.509  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66c50607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.540  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$607af0f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.671  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.685  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.691  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.704  INFO 124826 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:32:22.883  WARN 124826 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:32:22.900  INFO 124826 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:32:22.900  INFO 124826 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
-2024-09-13 23:32:23.032  INFO 124826 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:32:23.147  INFO 124826 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:32:24.022  WARN 124826 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:32:24.091  INFO 124826 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:32:24.149  INFO 124826 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:32:24.154  INFO 124826 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:32:24.186  INFO 124826 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:32:24.188  INFO 124826 --- [restartedMain] com.example.forum.Application            : Started Application in 2.787 seconds (JVM running for 3.219)
-2024-09-13 23:32:24.190  INFO 124826 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:32:28.549  INFO 124826 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:32:28.550  INFO 124826 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:32:28.557  INFO 124826 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-09-13 23:32:30.204  INFO 124826 --- [XNIO-1 task-9] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
-2024-09-13 23:40:02.135  INFO 124826 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:40:02.138  INFO 124826 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:40:03.797  INFO 126104 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 126104 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:40:03.800  INFO 126104 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:40:03.840  INFO 126104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:40:03.840  INFO 126104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:40:04.592  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93f0369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.622  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2f4ee56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.765  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.779  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.786  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.802  INFO 126104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:04.983  WARN 126104 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:40:04.997  INFO 126104 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:40:04.997  INFO 126104 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1157 ms
-2024-09-13 23:40:05.124  INFO 126104 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:40:05.221  INFO 126104 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:40:06.121  WARN 126104 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:40:06.196  INFO 126104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:40:06.261  INFO 126104 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:40:06.266  INFO 126104 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:40:06.296  INFO 126104 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:40:06.298  INFO 126104 --- [restartedMain] com.example.forum.Application            : Started Application in 2.837 seconds (JVM running for 3.318)
-2024-09-13 23:40:06.300  INFO 126104 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:40:09.674  INFO 126104 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:40:09.675  INFO 126104 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:40:09.680  INFO 126104 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2024-09-13 23:40:50.266  INFO 126104 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:40:50.268  INFO 126104 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:40:51.946  INFO 126374 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 126374 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:40:51.949  INFO 126374 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:40:51.993  INFO 126374 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:40:51.994  INFO 126374 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:40:52.718  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86730a9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:52.749  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$8028f58a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:52.884  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:52.897  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:52.904  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:52.917  INFO 126374 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:40:53.088  WARN 126374 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:40:53.101  INFO 126374 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:40:53.101  INFO 126374 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1107 ms
-2024-09-13 23:40:53.209  INFO 126374 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:40:53.294  INFO 126374 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:40:54.206  WARN 126374 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:40:54.275  INFO 126374 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:40:54.331  INFO 126374 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:40:54.346  INFO 126374 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:40:54.377  INFO 126374 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:40:54.379  INFO 126374 --- [restartedMain] com.example.forum.Application            : Started Application in 2.744 seconds (JVM running for 3.211)
-2024-09-13 23:40:54.381  INFO 126374 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:40:58.898  INFO 126374 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:40:58.898  INFO 126374 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:40:58.904  INFO 126374 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-09-13 23:49:37.078  INFO 126374 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2024-09-13 23:49:37.079  INFO 126374 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-09-13 23:49:38.725  INFO 127627 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 127627 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
-2024-09-13 23:49:38.728  INFO 127627 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
-2024-09-13 23:49:38.771  INFO 127627 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-13 23:49:38.772  INFO 127627 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-13 23:49:39.515  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de016db7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.546  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$d7b758a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.676  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.689  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.696  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.709  INFO 127627 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-13 23:49:39.877  WARN 127627 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-13 23:49:39.891  INFO 127627 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-13 23:49:39.891  INFO 127627 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1119 ms
-2024-09-13 23:49:40.006  INFO 127627 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2024-09-13 23:49:40.099  INFO 127627 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2024-09-13 23:49:41.009  WARN 127627 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
-2024-09-13 23:49:41.094  INFO 127627 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-13 23:49:41.149  INFO 127627 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
-2024-09-13 23:49:41.155  INFO 127627 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
-2024-09-13 23:49:41.197  INFO 127627 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
-2024-09-13 23:49:41.199  INFO 127627 --- [restartedMain] com.example.forum.Application            : Started Application in 2.78 seconds (JVM running for 3.257)
-2024-09-13 23:49:41.202  INFO 127627 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
-2024-09-13 23:49:44.564  INFO 127627 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-13 23:49:44.564  INFO 127627 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-13 23:49:44.571  INFO 127627 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-09-13 23:50:04.316  INFO 127627 --- [XNIO-1 task-27] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-15 12:57:48.959  INFO 5895 --- [restartedMain] com.example.forum.Application            : Starting Application on lwen-NUC8i5BEH with PID 5895 (/home/lwen/Downloads/lxaBlog/target/classes started by lwen in /home/lwen/Downloads/lxaBlog)
+2024-09-15 12:57:48.964  INFO 5895 --- [restartedMain] com.example.forum.Application            : No active profile set, falling back to default profiles: default
+2024-09-15 12:57:49.002  INFO 5895 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-15 12:57:49.002  INFO 5895 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-15 12:57:49.845  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a93e43e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:49.875  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.example.forum.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$1449cf2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:50.010  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:50.022  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.example.forum.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:50.028  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:50.040  INFO 5895 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.example.forum.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-15 12:57:50.212  WARN 5895 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-15 12:57:50.229  INFO 5895 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-15 12:57:50.229  INFO 5895 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1227 ms
+2024-09-15 12:57:50.359  INFO 5895 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-09-15 12:57:50.461  INFO 5895 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-09-15 12:57:51.434  WARN 5895 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-09-15 12:57:51.499  INFO 5895 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-15 12:57:51.545  INFO 5895 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2024-09-15 12:57:51.551  INFO 5895 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2024-09-15 12:57:51.587  INFO 5895 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8080 (http) with context path ''
+2024-09-15 12:57:51.589  INFO 5895 --- [restartedMain] com.example.forum.Application            : Started Application in 2.985 seconds (JVM running for 3.881)
+2024-09-15 12:57:51.591  INFO 5895 --- [restartedMain] com.example.forum.Application            : 请访问 http://localhost:8080
+2024-09-15 12:58:01.153  INFO 5895 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15 12:58:01.153  INFO 5895 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15 12:58:01.160  INFO 5895 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-09-15 12:58:25.388  INFO 5895 --- [XNIO-1 task-2] com.example.forum.config.shiro.MyRealm   : 认证-->MyShiroRealm.doGetAuthenticationInfo()
+2024-09-15 12:59:01.551  INFO 5895 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-09-15 12:59:01.553  INFO 5895 --- [Thread-13] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
