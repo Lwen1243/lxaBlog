@@ -31,8 +31,8 @@ spring:
     check-template-location: false
   servlet:
     multipart:
-      max-file-size: 2MB
-      max-request-size: 20MB
+      max-file-size: 2000MB
+      max-request-size: 20000MB
   devtools:
     restart:
       enabled: true
